@@ -1,81 +1,132 @@
+
 # 🧮 Python Calculator
 
-A command-line calculator built with Python as part of my journey into software development.
+<p align="center">
+  A command-line calculator built with Python as part of my journey into software development.
+</p>
 
-This project helps me practice programming fundamentals, mathematical operations, input validation, and Python's built-in modules.
-
-## ✨ Features
-
-- **Basic operations:** multiplication, division, addition, and subtraction.
-- **Powers:** raise a number to a given exponent.
-- **Square roots:** calculate the square root of a number.
-- **Numerical expressions:** evaluate expressions using supported arithmetic operators.
-- **Percentages:** calculate a percentage of a number, increase a number by a percentage, or decrease it by a percentage.
-- **Equation solving:** experimenting with first-degree and second-degree equations; this feature is still in development.
-
-🚧 Development Status
-
-This project is a work in progress.
-
-This calculator is part of my journey into software development. Although it already includes several mathematical operations, some features are incomplete and certain edge cases still need improvement.
-
-The project is not yet fully tested or production-ready. I am documenting its current limitations as I continue learning Python and improving my programming skills.
-
-⚠️ Known Limitations
-
-- Error handling: Some invalid inputs or mathematical operations may cause errors instead of returning to the menu cleanly.
-- Division by zero: This case needs more robust handling to prevent unexpected behavior.
-- Square roots: Negative inputs are not yet handled as smoothly as they should be.
-- Expression evaluation: The calculator supports a limited set of arithmetic operations and syntax. Some unsupported expressions may raise errors.
-- Equation solving: First-degree and second-degree equation functionality is still incomplete.
-- Input validation: More validation and testing are needed to make the program more reliable.
-
-These limitations are known areas for improvement, not claims that the project is finished. I intend to address them as I gain experience with debugging, testing, and error handling.
-
-## 🛠️ Built With
-
-- Python
-- `math` — mathematical functions
-- `ast` — parsing numerical expressions
-
-## ▶️ How to Run
-
-1. Install [Python](https://www.python.org/downloads/) if it isn't installed.
-2. Clone this repository:
-   ```bash
-   git clone https://github.com/GugaChali/calculadora-python.git
-   ```
-3. Open the project folder.
-4. Run the program:
-   ```bash
-   python calculadora.py
-   ```
-
-If your Python command is `python3`, use `python3 calculadora.py` instead.
-
-## 📚 What I'm Learning
-
-Through this project, I'm practicing:
-
-- Variables, conditionals, and loops
-- Functions and exception handling
-- Mathematical operations
-- Working with Python modules
-- Parsing expressions with the `ast` module
-- Building interactive command-line programs
-
-## 🚧 Future Improvements
-
-- Finish and improve equation-solving functionality.
-- Improve error handling for invalid expressions and mathematical operations.
-- Refactor the program as I learn more Python concepts.
-
-## 👨‍💻 Author
-
-**GugaChali** — aspiring Software Engineer.
-
-I'm learning Python through hands-on projects and documenting my progress as I grow as a developer.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Status-In%20Development-orange" alt="In Development">
+  <img src="https://img.shields.io/badge/Project-Learning%20%26%20Practice-purple" alt="Learning and Practice">
+</p>
 
 ---
 
-*Learning today. Building tomorrow. 🎮💻*
+## 📌 About the Project
+
+This project is a command-line calculator developed to practice Python programming and strengthen my understanding of programming fundamentals.
+
+It includes several mathematical operations, interactive menus, input validation, and the use of Python's built-in modules.
+
+I'm continuously improving the code, fixing bugs, and learning new concepts along the way.
+
+## ✨ Features
+
+| Feature | Description | Status |
+|---|---|---|
+| ➕ Basic Arithmetic | Addition, subtraction, multiplication, and division | 🟡 Needs improvements |
+| ⚡ Powers | Raise a number to a given exponent | 🟢 Implemented |
+| √ Square Roots | Calculate the square root of a number | 🟡 Needs improvements |
+| 🧮 Numerical Expressions | Evaluate expressions using supported arithmetic operators | 🟡 Needs improvements |
+| 📊 Percentages | Calculate percentages, increases, and decreases | 🟢 Implemented |
+| 📐 Equation Solving | Experimental first-degree equation functionality | 🚧 In development |
+
+> **Status legend:** 🟢 Implemented · 🟡 Needs improvements · 🚧 In development
+
+These statuses describe the current implementation and do not mean that every possible input has been tested.
+
+## 🛠️ Built With
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+</p>
+
+- **Python** — main programming language.
+- **`math`** — mathematical functions, including square roots.
+- **`ast`** — parsing the structure of numerical expressions.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Python 3](https://www.python.org/downloads/)
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/GugaChali/Calculadora-Python.git
+```
+
+**2. Enter the project directory**
+
+```bash
+cd Calculadora-Python
+```
+
+**3. Run the calculator**
+
+```bash
+python calculadora.py
+```
+
+If your system uses `python3`, run:
+
+```bash
+python3 calculadora.py
+```
+
+## 🧠 Concepts Practiced
+
+This project helps me develop practical experience with:
+
+- Variables and data types
+- Conditional statements
+- Loops and control flow
+- User input and input validation
+- Exception handling with `try` and `except`
+- Mathematical operations
+- Python modules and imports
+- Parsing expressions with the `ast` module
+- Debugging and problem-solving
+
+## ⚠️ Known Limitations
+
+This calculator is still under development. Current areas for improvement include:
+
+- **Error handling:** Some invalid inputs and mathematical operations may not be handled smoothly.
+- **Division by zero:** The program needs more reliable handling of this case.
+- **Square roots:** Negative inputs need improved validation and recovery.
+- **Numerical expressions:** Invalid syntax and unsupported operations need better error handling.
+- **Equation solving:** First-degree equation solving is incomplete, and second-degree equations have not yet been implemented.
+- **Testing:** More testing is needed to verify normal operations and edge cases.
+
+I'm documenting these limitations as part of the development process and will update this section as improvements are made.
+
+## 🗺️ Roadmap
+
+- [ ] Improve input validation and exception handling.
+- [ ] Fix division-by-zero and invalid square-root handling.
+- [ ] Strengthen numerical expression validation.
+- [ ] Complete first-degree equation solving.
+- [ ] Implement second-degree equation solving.
+- [ ] Test all calculator operations and edge cases.
+- [ ] Refactor the code as I learn more Python.
+
+## 👨‍💻 Author
+
+**GugaChali**
+
+Aspiring Software Engineer | Python Learner
+
+I'm building projects to develop my programming skills, understand software development, and document my progress along the way.
+
+🔗 **GitHub:** [@GugaChali](https://github.com/GugaChali)
+
+---
+
+<p align="center">
+  <i>Learning today. Building tomorrow. 🎮💻</i>
+</p>
