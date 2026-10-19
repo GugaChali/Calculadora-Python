@@ -13,6 +13,25 @@ This project helps me practice programming fundamentals, mathematical operations
 - **Percentages:** calculate a percentage of a number, increase a number by a percentage, or decrease it by a percentage.
 - **Equation solving:** experimenting with first-degree and second-degree equations; this feature is still in development.
 
+🚧 Development Status
+
+This project is a work in progress.
+
+This calculator is part of my journey into software development. Although it already includes several mathematical operations, some features are incomplete and certain edge cases still need improvement.
+
+The project is not yet fully tested or production-ready. I am documenting its current limitations as I continue learning Python and improving my programming skills.
+
+⚠️ Known Limitations
+
+- Error handling: Some invalid inputs or mathematical operations may cause errors instead of returning to the menu cleanly.
+- Division by zero: This case needs more robust handling to prevent unexpected behavior.
+- Square roots: Negative inputs are not yet handled as smoothly as they should be.
+- Expression evaluation: The calculator supports a limited set of arithmetic operations and syntax. Some unsupported expressions may raise errors.
+- Equation solving: First-degree and second-degree equation functionality is still incomplete.
+- Input validation: More validation and testing are needed to make the program more reliable.
+
+These limitations are known areas for improvement, not claims that the project is finished. I intend to address them as I gain experience with debugging, testing, and error handling.
+
 ## 🛠️ Built With
 
 - Python
@@ -60,22 +79,3 @@ I'm learning Python through hands-on projects and documenting my progress as I g
 ---
 
 *Learning today. Building tomorrow. 🎮💻*
-
-🚧 Development Status
-
-This project is a work in progress.
-
-This calculator is part of my journey into software development. Although it already includes several mathematical operations, some features are incomplete and certain edge cases still need improvement.
-
-The project is not yet fully tested or production-ready. I am documenting its current limitations as I continue learning Python and improving my programming skills.
-
-⚠️ Known Limitations
-
-- Error handling: Some invalid inputs or mathematical operations may cause errors instead of returning to the menu cleanly.
-- Division by zero: This case needs more robust handling to prevent unexpected behavior.
-- Square roots: Negative inputs are not yet handled as smoothly as they should be.
-- Expression evaluation: The calculator supports a limited set of arithmetic operations and syntax. Some unsupported expressions may raise errors.
-- Equation solving: First-degree and second-degree equation functionality is still incomplete.
-- Input validation: More validation and testing are needed to make the program more reliable.
-
-These limitations are known areas for improvement, not claims that the project is finished. I intend to address them as I gain experience with debugging, testing, and error handling.
