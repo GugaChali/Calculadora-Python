@@ -79,11 +79,3 @@ The project is not yet fully tested or production-ready. I am documenting its cu
 - Input validation: More validation and testing are needed to make the program more reliable.
 
 These limitations are known areas for improvement, not claims that the project is finished. I intend to address them as I gain experience with debugging, testing, and error handling.
-
-🔧 Future Improvements
-
-- Complete the equation-solving functionality.
-- Improve error handling for invalid inputs and mathematical operations.
-- Test edge cases and unexpected user inputs.
-- Make the program return to the menu gracefully after errors.
-- Refactor the code as I learn more Python concepts.
