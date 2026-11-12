@@ -1,82 +1,49 @@
-🧮 Python Calculator
+<div align="center">🧮 Python Calculator
 
-<div align="center">  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Interface-CLI-181717?style=for-the-badge&logo=windowsterminal&logoColor=white" /><br><br>
+<p>
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.x" />
+  <img src="https://img.shields.io/badge/Status-In_Development-yellow?style=for-the-badge" alt="In development" />
+  <img src="https://img.shields.io/badge/Interface-CLI-181717?style=for-the-badge&logo=windowsterminal&logoColor=white" alt="CLI" />
+</p>An interactive command-line calculator built with Python.
 
-A Python-based command-line calculator exploring mathematical operations, recursive algorithms, and expression parsing.
+Exploring mathematical operations, recursive algorithms, input validation, and expression parsing with Abstract Syntax Trees.
 
-  <br>"Features" (#-features) •
-"Technologies" (#-technologies) •
-"Installation" (#-installation) •
-"Roadmap" (#-roadmap)
+<p>
+  <a href="#features">Features</a> •
+  <a href="#technical-highlights">Technical Highlights</a> •
+  <a href="#technologies">Technologies</a> •
+  <a href="#getting-started">Getting Started</a> •
+  <a href="#roadmap">Roadmap</a>
+</p></div>---
 
-</div>---
+About
 
-📖 About
+Python Calculator is a command-line application developed as a hands-on project to practice Python programming and problem-solving.
 
-Python Calculator is an interactive command-line application developed to practice and explore Python programming concepts through mathematical operations.
+It goes beyond basic arithmetic by exploring Abstract Syntax Trees (AST), recursive expression evaluation, exception handling, input validation, and manual string parsing.
 
-Beyond standard arithmetic, the project explores Abstract Syntax Trees (AST), recursive expression evaluation, input validation, exception handling, and manual string parsing.
+The project is a work in progress: features are being improved as new programming concepts are learned and applied.
 
-The application is continuously evolving as new concepts and improvements are implemented.
+Features
 
-✨ Features
+Feature| Description| Status
+➕ Basic operations| Addition, subtraction, multiplication, and division| 🟢
+⚡ Exponentiation| Power calculations using the "**" operator| 🟢
+√ Square root| Square root calculations using "math.sqrt()"| 🟢
+🧮 Expression evaluation| Recursive evaluation of mathematical expressions using AST| 🟢
+📊 Percentages| Percentage calculations, increases, and discounts| 🟢
+📐 First-degree equations| Initial parsing and coefficient extraction| 🚧
+📈 Second-degree equations| Equation-solving functionality| ⏳
 
-<table>
-  <thead>
-    <tr>
-      <th>Feature</th>
-      <th>Description</th>
-      <th align="center">Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>➕ <b>Basic Operations</b></td>
-      <td>Addition, subtraction, multiplication, and division.</td>
-      <td align="center">🟢</td>
-    </tr>
-    <tr>
-      <td>⚡ <b>Exponentiation</b></td>
-      <td>Power calculations using the <code>**</code> operator.</td>
-      <td align="center">🟢</td>
-    </tr>
-    <tr>
-      <td>√ <b>Square Root</b></td>
-      <td>Square root calculations using <code>math.sqrt()</code>.</td>
-      <td align="center">🟢</td>
-    </tr>
-    <tr>
-      <td>🧮 <b>Expression Evaluation</b></td>
-      <td>Recursive mathematical expression evaluation using AST.</td>
-      <td align="center">🟢</td>
-    </tr>
-    <tr>
-      <td>📊 <b>Percentages</b></td>
-      <td>Percentage calculations, increases, and discounts.</td>
-      <td align="center">🟢</td>
-    </tr>
-    <tr>
-      <td>📐 <b>First-Degree Equations</b></td>
-      <td>Initial equation parsing and coefficient extraction.</td>
-      <td align="center">🚧</td>
-    </tr>
-    <tr>
-      <td>📈 <b>Second-Degree Equations</b></td>
-      <td>Equation-solving functionality planned.</td>
-      <td align="center">⏳</td>
-    </tr>
-  </tbody>
-</table><sub>🟢 Implemented   •   🚧 In Development   •   ⏳ Planned</sub>
+<sub>🟢 Implemented · 🚧 In development · ⏳ Planned</sub>
 
-🧠 Technical Highlights
+Technical Highlights
 
 Abstract Syntax Trees (AST)
 
-One of the main technical features is the use of Python's "ast" module to parse and evaluate mathematical expressions.
+One of the main features of this project is the use of Python's "ast" module to parse mathematical expressions.
 
-Instead of using Python's built-in "eval()", the application traverses the generated syntax tree recursively, identifying and processing supported mathematical operators.
+Instead of relying on Python's built-in "eval()", the calculator traverses the generated syntax tree recursively and processes supported mathematical operators.
 
 Currently supported operators:
 
@@ -86,40 +53,36 @@ Operator| Operation
 "*"| Multiplication
 "/"| Division
 "**"| Exponentiation
-"//"| Floor Division
+"//"| Floor division
 "%"| Modulo
-"+x" / "-x"| Unary Operations
+"+x" / "-x"| Unary operations
 
-Input Validation
+Input validation and exception handling
 
-The application uses "try/except" blocks and validation loops to handle invalid numerical inputs and menu selections, allowing users to retry without immediately terminating the program.
+The application uses "try/except" blocks and validation loops to handle invalid numerical inputs and menu selections, allowing users to retry instead of immediately terminating the program.
 
-Mathematical Calculations
+Percentage calculations
 
-The percentage module provides three calculation modes:
+The percentage module currently includes three modes:
 
 - Percentage of a given number.
 - Percentage increase.
 - Percentage decrease.
 
-Equation Parsing
+Equation parsing
 
-The first-degree equation module introduces manual string parsing, character indexing, variable identification, and coefficient extraction.
+The first-degree equation module explores manual string parsing, character indexing, variable identification, and coefficient extraction. The solving logic is still being developed.
 
----
+Technologies
 
-🛠️ Technologies
-
-<div align="center">  <img src="https://skillicons.dev/icons?i=python" height="55" alt="Python" />  <br>Python 3 · "math" · "ast"
+<div align="center"><img src="https://skillicons.dev/icons?i=python" height="64" alt="Python" />Python 3
 
 </div>Technology| Purpose
 Python 3| Main programming language
 "math"| Mathematical functions
 "ast"| Expression parsing and syntax tree traversal
 
----
-
-🚀 Installation
+Getting Started
 
 Prerequisites
 
@@ -128,34 +91,27 @@ Prerequisites
 
 Clone the repository
 
-git clone <REPOSITORY_URL>
-
-Navigate to the project directory
-
+git clone https://github.com/GugaChali/Calculadora-Python.git
 cd Calculadora-Python
 
 Run the application
 
 python calculadora.py
 
----
-
-🗺️ Roadmap
+Roadmap
 
 - [ ] Complete first-degree equation solving.
 - [ ] Implement second-degree equation calculations.
-- [ ] Improve AST node validation and exception handling.
+- [ ] Improve AST node and input validation.
 - [ ] Handle unsupported expressions and mathematical edge cases.
 - [ ] Standardize decimal input handling.
 - [ ] Refactor the application into reusable functions.
 - [ ] Improve code organization and maintainability.
 - [ ] Expand mathematical operation support.
 
----
+Learning Objectives
 
-📚 Learning Objectives
-
-This project provides practical experience with:
+Through this project, I am practicing and applying:
 
 - Python control flow and loops.
 - Conditional statements.
@@ -169,10 +125,8 @@ This project provides practical experience with:
 
 ---
 
-<div align="center">💻 Built with Python
+<div align="center">Built with Python 🐍
 
 A continuous learning project focused on programming fundamentals and software development.
-
-  <br>Thanks for visiting!
 
 </div>
